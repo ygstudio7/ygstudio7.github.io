@@ -6,7 +6,11 @@ categories: Github page, Jekyll
 
 
 # github page로 static page 만드는 법
-: 프로그램 설치 없이 빠르게 가능? Ruby, Jekyll 설치없이 10분안에 수준급 블로그 만들기
+- 프로그램 설치 없이 빠르게 가능
+
+- Ruby, Jekyll 설치없이 10분안에 수준급 블로그 만들기
+
+- 순서
 
 1. 새 저장소 (repository) 생성
 
@@ -16,7 +20,9 @@ categories: Github page, Jekyll
 
 4. index 파일 가져와서 수정
 
-5. _post에 글쓰기
+5. _posts에 글쓰기
 
 6. 확인하기
+
+
 
