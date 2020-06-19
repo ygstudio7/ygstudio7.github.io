@@ -1,1 +1,1 @@
-# ygstudio7.github.io
+# YG studio 7.github.io
