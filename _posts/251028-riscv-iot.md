@@ -6,8 +6,8 @@
 
 ### ✅ 세부 내용
 
-| 코어          | 기본 ISA    | Compressed(RVC) 지원 여부         | 비고                                        |
-| ------------- | ----------- | --------------------------------- | ------------------------------------------- |
+| 코어            | 기본 ISA      | Compressed(RVC) 지원 여부           | 비고                                          |
+| ------------- | ----------- | ------------------------------- | ------------------------------------------- |
 | **SweRV EH1** | **RV32IMC** | ✅ 지원 (C = Compressed Extension) | 32-bit, 2-way superscalar, 9-stage pipeline |
 | **SweRV EH2** | **RV32IMC** | ✅ 지원                            | dual-threaded version of EH1                |
 | **SweRV EL2** | **RV32IMC** | ✅ 지원                            | low-power version optimized for controllers |
@@ -15,13 +15,7 @@
 즉, WD가 공개한 모든 SweRV Core 시리즈(EH1, EH2, EL2)는 **“RV32IMC”** 구성을 사용하므로,
  `C` 확장이 포함되어 **16-bit compressed instruction set** 을 완전하게 지원합니다.
 
-
-
-
-
 # Free Open-source RISC-V cores
-
-
 
 ## 선택 팁
 
@@ -35,8 +29,6 @@
 
 ![image-20251028150616929](assets/image-20251028150616929.png)
 
-
-
 # IoT 용
 
  **IoT(사물인터넷)** 용으로 적합한 오픈소스 RISC-V 코어는
@@ -48,10 +40,10 @@
 
 ## 🌱 오픈소스 RISC-V 코어 — **IoT용 추천 TOP 5**
 
-| 코어 이름              | ISA      | 전형적 클럭/성능       | 장점                                              | 라이선스 / 언어                   | 주요 활용                            |
-| ---------------------- | -------- | ---------------------- | ------------------------------------------------- | --------------------------------- | ------------------------------------ |
-| **PicoRV32**           | RV32IMC  | 50~250 MHz (FPGA 기준) | 매우 작고 단순 (≈1.5–2 K LUTs), 저전력, FPGA 호환 | ISC (MIT 유사) / Verilog          | 소형 IoT MCU, 센서 노드              |
-| **SweRV EL2**          | RV32IMC  | ~500 MHz (ASIC)        | WD가 실제 제품에 사용, 압축명령·멀티플라이 지원   | Apache 2.0 / SystemVerilog        | 임베디드 컨트롤러, SSD, IoT 디바이스 |
-| **CORE-V CV32E40P**    | RV32IMFC | 100–400 MHz            | OpenHW 지원, 확장성 좋고 Verif 패키지 포함        | Solderpad License / SystemVerilog | 산업용 IoT, 실리콘 프로토타입        |
-| **Ibex** (by lowRISC)  | RV32IMC  | 100–300 MHz            | Google OpenTitan에 채택, 보안 / 검증 잘 되어 있음 | Apache 2.0 / SystemVerilog        | 보안 IoT, TrustZone 유사 응용        |
-| **Zero-riscy (RI5CY)** | RV32IMFC | 100–300 MHz            | ETH Zurich / PULP Platform, DSP F-ext 지원        | Apache 2.0 / SystemVerilog        | 저전력 IoT + DSP 기능 필요한 기기    |
+| 코어 이름                  | ISA      | 전형적 클럭/성능            | 장점                                       | 라이선스 / 언어                         | 주요 활용                    |
+| ---------------------- | -------- | -------------------- | ---------------------------------------- | --------------------------------- | ------------------------ |
+| **PicoRV32**           | RV32IMC  | 50~250 MHz (FPGA 기준) | 매우 작고 단순 (≈1.5–2 K LUTs), 저전력, FPGA 호환   | ISC (MIT 유사) / Verilog            | 소형 IoT MCU, 센서 노드        |
+| **SweRV EL2**          | RV32IMC  | ~500 MHz (ASIC)      | WD가 실제 제품에 사용, 압축명령·멀티플라이 지원             | Apache 2.0 / SystemVerilog        | 임베디드 컨트롤러, SSD, IoT 디바이스 |
+| **CORE-V CV32E40P**    | RV32IMFC | 100–400 MHz          | OpenHW 지원, 확장성 좋고 Verif 패키지 포함           | Solderpad License / SystemVerilog | 산업용 IoT, 실리콘 프로토타입       |
+| **Ibex** (by lowRISC)  | RV32IMC  | 100–300 MHz          | Google OpenTitan에 채택, 보안 / 검증 잘 되어 있음    | Apache 2.0 / SystemVerilog        | 보안 IoT, TrustZone 유사 응용  |
+| **Zero-riscy (RI5CY)** | RV32IMFC | 100–300 MHz          | ETH Zurich / PULP Platform, DSP F-ext 지원 | Apache 2.0 / SystemVerilog        | 저전력 IoT + DSP 기능 필요한 기기  |

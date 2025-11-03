@@ -4,14 +4,9 @@
 
 VirtualBox Cannot register the hard disk already exists
 
-
-
 c:\Program Files\Oracle\VirtualBox\ 폴더로 이동후에,
-
-
 
 ```
 VBoxManage.exe internalcommands sethduuid x:\Project\vbox\WinLab10.vdi
 UUID changed to: d4e668ef-d85b-4657-b5e9-feb105cff11b
 ```
-
