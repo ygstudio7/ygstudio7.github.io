@@ -1,0 +1,1 @@
+https://github.com/tobyqin/Typora-Portable/releases

@@ -1,0 +1,1 @@
+https://verificationacademy.com/forums/t/parameterized-struct-in-systemverilog-design/33238/3

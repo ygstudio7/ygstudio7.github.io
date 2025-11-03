@@ -62,7 +62,7 @@ minimal mistakes fork하기:
 
 위의 [Minimal Mistakes remote theme starter](https://github.com/mmistakes/mm-github-pages-starter/generate) 을 누르면 아래와 같은 사이트로 이동. 여기서 아래처럼 repo name 을 설정하면, minimal mistakes를 fork함.
 
-![image-20200720231237796](H:\vbox\w7_share\work\_Doc\_future\_work\github pages\ygstudio7\ygstudio7.github.io\images\image-20200720231237796.png)
+![image-20200720231237796](e:\_ygkim\_Doc\_future\\_work\github pages\ygstudio7\ygstudio7.github.io\images\image-20200720231237796.png)
 
 
 
@@ -70,7 +70,7 @@ minimal mistakes fork하기:
 
 해당 username/github.io에 들어가서, settings 클릭 
 
-![image-20200720231333296](H:\vbox\w7_share\work\_Doc\_future\_work\github pages\ygstudio7\ygstudio7.github.io\images\image-20200720231333296.png)
+![image-20200720231333296](e:\_ygkim\_Doc\_future\\_work\github pages\ygstudio7\ygstudio7.github.io\images\image-20200720231333296.png)
 
 아래처럼, GitHub Pages가 아직 disable되었다고 나옴
 
@@ -80,11 +80,11 @@ Theme:
 
 아래와 같이 설정
 
-![image-20200720231458102](H:\vbox\w7_share\work\_Doc\_future\_work\github pages\ygstudio7\ygstudio7.github.io\images\image-20200720231458102.png)
+![image-20200720231458102](e:\_ygkim\_Doc\_future\\_work\github pages\ygstudio7\ygstudio7.github.io\images\image-20200720231458102.png)
 
 아래와 같이 repository name을 변경하면
 
-![image-20200720231947766](H:\vbox\w7_share\work\_Doc\_future\_work\github pages\ygstudio7\ygstudio7.github.io\images\image-20200720231947766.png)
+![image-20200720231947766](e:\_ygkim\_Doc\_future\\_work\github pages\ygstudio7\ygstudio7.github.io\images\image-20200720231947766.png)
 
 http://yjlab.github.io로 접속 가능해짐.
 
@@ -116,7 +116,7 @@ git clone https://github.com/yjlab/yjlab.github.io.git
 
 3. `Start Command prompt with Ruby` 클릭
 
-   ![image-20200720233518666](H:\vbox\w7_share\work\_Doc\_future\_work\github pages\ygstudio7\ygstudio7.github.io\images\image-20200720233518666.png)
+   ![image-20200720233518666](e:\_ygkim\_Doc\_future\\_work\github pages\ygstudio7\ygstudio7.github.io\images\image-20200720233518666.png)
 
 4. Fetch and update bundled gems by running the following [Bundler](https://bundler.io/) command:
 
