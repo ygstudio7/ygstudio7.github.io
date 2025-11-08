@@ -2,15 +2,11 @@
 
 원문: [Quick-Start Guide](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/)
 
-
-
 쉽게 사용하기 위해 [Gem-based theme](http://jekyllrb.com/docs/themes/) 으로 개발
 
 Remote theme 기반의 GitHub 와 100% 호환
 
 **If you enjoy this theme, please consider [supporting me](https://www.paypal.me/mmistakes) for developing and maintaining it.**
-
-
 
 ## 테마 설치 [Permalink](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme)
 
@@ -27,19 +23,19 @@ With Gem-based themes, directories such as the `assets`, `_layouts`, `_includes`
 To install as a Gem-based theme:
 
 1. Add the following to your `Gemfile`:
-
+   
    ```
    gem "minimal-mistakes-jekyll"
    ```
 
 2. Fetch and update bundled gems by running the following [Bundler](https://bundler.io/) command:
-
+   
    ```
    bundle
    ```
 
 3. Set the `theme` in your project’s Jekyll `_config.yml` file:
-
+   
    ```
    theme: minimal-mistakes-jekyll
    ```
@@ -54,8 +50,6 @@ To update the theme run `bundle update`.
 
 (+) GitHub 페이지로 호스팅하는 사이트들에 최적
 
-
-
 minimal mistakes fork하기:
 
 **Looking for an example?** Use the [Minimal Mistakes remote theme starter](https://github.com/mmistakes/mm-github-pages-starter/generate) for the quickest method of getting a GitHub Pages hosted site up and running. Generate a new repository from the starter, replace sample content with your own, and configure as needed.
@@ -63,8 +57,6 @@ minimal mistakes fork하기:
 위의 [Minimal Mistakes remote theme starter](https://github.com/mmistakes/mm-github-pages-starter/generate) 을 누르면 아래와 같은 사이트로 이동. 여기서 아래처럼 repo name 을 설정하면, minimal mistakes를 fork함.
 
 ![image-20200720231237796](e:\_ygkim\_Doc\_future\\_work\github pages\ygstudio7\ygstudio7.github.io\images\image-20200720231237796.png)
-
-
 
 ------
 
@@ -88,24 +80,16 @@ Theme:
 
 http://yjlab.github.io로 접속 가능해짐.
 
-
-
 이후, git bash를 사용하여 위 site를 clone함
 
 ```bash
 git clone https://github.com/yjlab/yjlab.github.io.git
 ```
 
-
-
-
-
-
-
 원격 테마 설치:
 
 1. Create/replace the contents of your `Gemfile` with the following: (이미 들어있음)
-
+   
    ```
    source "https://rubygems.org"
    
@@ -115,11 +99,11 @@ git clone https://github.com/yjlab/yjlab.github.io.git
 2. Add `jekyll-include-cache` to the `plugins` array of your `_config.yml`. (이미 들어있음)
 
 3. `Start Command prompt with Ruby` 클릭
-
+   
    ![image-20200720233518666](e:\_ygkim\_Doc\_future\\_work\github pages\ygstudio7\ygstudio7.github.io\images\image-20200720233518666.png)
 
 4. Fetch and update bundled gems by running the following [Bundler](https://bundler.io/) command:
-
+   
    ```
    bundle
    ```
@@ -127,18 +111,14 @@ git clone https://github.com/yjlab/yjlab.github.io.git
 5. Add `remote_theme: "mmistakes/minimal-mistakes@4.19.3"` to your `_config.yml` file. Remove any other `theme:` or `remote_theme:` entry.
 
 6. git에 push
-
+   
    ```bash
    git add .
    git commit -m"first commit"
    git push
    ```
 
-   
-
 You may also optionally specify a branch, [tag](https://github.com/mmistakes/minimal-mistakes/tags), or commit to use by appending an @ and the Git ref (e.g., `mmistakes/minimal-mistakes@4.9.0` or `mmistakes/minimal-mistakes@bbf3cbc5fd64a3e1885f3f99eb90ba92af84063d`). This is useful when rolling back to older versions of the theme. If you don’t specify a Git ref, the latest on `master` will be used.
-
-
 
 **Note:** Your Jekyll site should be viewable immediately at [http://USERNAME.github.io](http://username.github.io/). If it’s not, you can force a rebuild by **Customizing Your Site** (see below for more details).
 

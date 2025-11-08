@@ -47,3 +47,26 @@
 | **CORE-V CV32E40P**    | RV32IMFC | 100–400 MHz          | OpenHW 지원, 확장성 좋고 Verif 패키지 포함           | Solderpad License / SystemVerilog | 산업용 IoT, 실리콘 프로토타입       |
 | **Ibex** (by lowRISC)  | RV32IMC  | 100–300 MHz          | Google OpenTitan에 채택, 보안 / 검증 잘 되어 있음    | Apache 2.0 / SystemVerilog        | 보안 IoT, TrustZone 유사 응용  |
 | **Zero-riscy (RI5CY)** | RV32IMFC | 100–300 MHz          | ETH Zurich / PULP Platform, DSP F-ext 지원 | Apache 2.0 / SystemVerilog        | 저전력 IoT + DSP 기능 필요한 기기  |
+
+# 전체 비교
+
+[ChatGPT](https://chatgpt.com/c/690a7e96-f5cc-8331-8281-4f66f42ae6f0)
+
+![](C:\Users\ygkim\AppData\Roaming\marktext\images\2025-11-04-16-10-06-image.png)
+
+## 🧩 FPGA Implementation Comparison – picoRV32 vs CV32E40P vs SweRV (VeeR) EL2
+
+| Category                           | **picoRV32**                                                          | **CV32E40P (OpenHW Group)**                                                                    | **SweRV / VeeR EL2 (Western Digital / CHIPS Alliance)**                        |
+| ---------------------------------- | --------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| **FPGA Resource Usage (LUT / FF)** | 🔹 *Very small* — ≈ 2 k – 4 k LUTs (Xilinx) <br> 🔹 1.5 k – 2.5 k FFs | 🔸 *Medium* — ≈ 10 k – 15 k LUTs (7 k – 12 k FFs) <br> (may increase with FPU / Perf Counters) | 🔸 *Large* — ≈ 25 k – 40 k LUTs (≥ 20 k FFs) <br> Requires larger FPGA devices |
+| **BRAM / Memory Blocks**           | 1 – 2 BRAM (≈ 1–2 KB local memory possible)                           | 8 – 16 BRAM (for TCM 32–64 KB + buffers)                                                       | ≥ 20 BRAM (for I/D caches and local memories)                                  |
+| **Max Clock (FPGA)**               | ⚡ 250 – 400 MHz (on Artix-7 / UltraScale)                             | ⏱ 100 – 150 MHz (on Artix-7 / Zynq)                                                            | ⏱ 75 – 120 MHz (on Kintex-7 / UltraScale)                                      |
+| **Pipeline / Micro-architecture**  | 1 – 4 stage (simple core)                                             | 4-stage pipeline + PULP extensions                                                             | 9-stage dual-issue superscalar pipeline                                        |
+| **Supported ISA / Features**       | RV32IMC (optional M, C) <br>Minimal debug                             | RV32IMC + PULP extensions + Interrupt + Debug                                                  | RV32IMAC + Caches + Interrupt + Debug + Perf Counters                          |
+| **Integration / Porting Ease**     | ✅ Very easy – single Verilog file, AXI/WB wrappers available          | ⚙️ Moderate – requires AXI/APB integration and multiple modules                                | ⚙️ Hard – multiple interfaces and cache hierarchy need careful adaptation      |
+| **Synthesis / Build Time**         | ⏱ Very fast (Seconds – Minutes)                                       | ⏱ Moderate (Few minutes to 10 min)                                                             | ⏱ Slow (> 10 min, esp. with debug logic)                                       |
+| **Recommended FPGA Class**         | Spartan-6 / Artix-7 / Cyclone-IV or higher                            | Artix-7 / Zynq / Cyclone-V or higher                                                           | Kintex-7 / Stratix-10 / Zynq UltraScale+ or higher                             |
+| **Typical Use Cases**              | Education, MCU control, IoT, soft-core CPU controller                 | Mid-range SoC research, real-time control, RISC-V education platform                           | High-performance SoC prototypes, industry-grade research, Caliptra project     |
+| **Complexity Level**               | 🟢 Minimal                                                            | 🟡 Medium                                                                                      | 🔴 High                                                                        |
+| **Performance per Area (rough)**   | ⚙️ Low IPC (~0.3–0.5) but tiny area                                   | ⚙️ Balanced (~0.8–1 IPC)                                                                       | ⚙️ High (~1.5–2 IPC potential)                                                 |
+| **Tool / Flow Support**            | Works out-of-box with Vivado, Quartus, Yosys                          | Provided by OpenHW FPGA reference flow                                                         | CHIPS Alliance build scripts available, but more complex                       |
