@@ -1,0 +1,1 @@
+http://mantravlsi.blogspot.com/2014/10/clock-uncertainty.html

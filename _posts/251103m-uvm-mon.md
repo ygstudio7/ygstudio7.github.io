@@ -16,12 +16,13 @@
 
 * TLM 분석 포트로 데이터 방출
 
-
+<img src="https://www.chipverify.com/images/uvm/uvm_monitor.svg" alt="uvm-모니터-환경" style="zoom:150%;" />
 
 
 
 # class hierarchy
 
+<img src="https://www.chipverify.com/images/uvm/uml_uvm_monitor.svg" alt="uvm-모니터-클래스-hier" style="zoom:150%;" />
 
 
 
@@ -29,8 +30,7 @@
 
 
 
-
-# steps to create a uvm monotor
+# Steps to create a uvm monotor
 
 1. 선언 및 상속
 
@@ -44,6 +44,8 @@ endclass
 
 
 2. 변수/포트 선언
+
+여기서, uvm_analysis_port를 멤버 변수로 포함한다.
 
 ```verilog
 virtual my_if vif;
@@ -85,6 +87,8 @@ endfunction
 
 4. run_phase 구현
 
+mon에서는 run_phase가 `메인`이다. transaction이 완료되면, L11과 같이 mon_analysis_port에 write함수를 호출해서, captured 된 info를 넘긴다.
+
 ```verilog
 virtual task run_phase(uvm_phase phase);
    my_data data_obj = my_data::type_id::create("data_obj", this);
@@ -123,7 +127,6 @@ endtask
 
 
 # recommended practice
-
 
 
 
