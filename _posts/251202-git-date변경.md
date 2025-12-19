@@ -1,0 +1,1 @@
+- `git commit --amend --date="YYYY-MM-DD HH:MM:SS"` 와 같이 `--date` 옵션을 사용하여 날짜와 시간을 설정합니다.
