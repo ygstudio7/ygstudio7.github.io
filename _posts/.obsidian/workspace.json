@@ -1,0 +1,468 @@
+{
+  "main": {
+    "id": "fa6a3bb5ba997241",
+    "type": "split",
+    "children": [
+      {
+        "id": "1a1fe28948fe703e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b53229daef80dba0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "260210-moa-부동산 관리.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "260210-moa-부동산 관리"
+            }
+          },
+          {
+            "id": "0fcf28c59a21631d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.7"
+            }
+          },
+          {
+            "id": "ca895d8daeacc76e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "260215c-tax-cpa에게 IMR, MOA 세금 보고 요청 내용.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "260215c-tax-cpa에게 IMR, MOA 세금 보고 요청 내용"
+            }
+          },
+          {
+            "id": "d6321ea1eb4851cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "260216a-tax-2026 계획.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "260216a-tax-2026 계획"
+            }
+          },
+          {
+            "id": "39060d6867e1b589",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "260216b-2026년도 세금을 28-35 에서 11로 down 가능.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "260216b-2026년도 세금을 28-35 에서 11로 down 가능"
+            }
+          },
+          {
+            "id": "be549dd79e161060",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "260216c-tax-1.6M 집구매.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "260216c-tax-1.6M 집구매"
+            }
+          },
+          {
+            "id": "b9a04d5a203451a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "260215c-tax-cpa에게 IMR, MOA 세금 보고 요청 내용.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "260215c-tax-cpa에게 IMR, MOA 세금 보고 요청 내용"
+            }
+          },
+          {
+            "id": "dba3e00aafb40816",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "260215a-tax-property 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "260215a-tax-property 1"
+            }
+          },
+          {
+            "id": "f80c2b8fce608bae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "260215b-tax-property 2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "260215b-tax-property 2"
+            }
+          },
+          {
+            "id": "dbbf3356f99eb3aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "260215b-tax-2024년도.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "260215b-tax-2024년도"
+            }
+          },
+          {
+            "id": "7ee3a442ef95dcbd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "260215c-tax-2025년도 예상.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "260215c-tax-2025년도 예상"
+            }
+          },
+          {
+            "id": "fdb4647c16803256",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "260215c-tax-cpa에게 IMR, MOA 세금 보고 요청 내용.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "260215c-tax-cpa에게 IMR, MOA 세금 보고 요청 내용"
+            }
+          },
+          {
+            "id": "a86b2118f2b4ddc9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "260215d-tax-property 1 리모델링 서류.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "260215d-tax-property 1 리모델링 서류"
+            }
+          },
+          {
+            "id": "3c1a4dac071fa722",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "moa-260210-0828-carlos.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "moa-260210-0828-carlos"
+            }
+          },
+          {
+            "id": "57424529d9a2688e",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "릴리즈 노트 1.12.4"
+            }
+          },
+          {
+            "id": "1c304b9979d19783",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "260408-rtl-float1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "260408-rtl-float1"
+            }
+          },
+          {
+            "id": "a63e6616ee26e00f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "260408b-rtl-queue.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "260408b-rtl-queue"
+            }
+          },
+          {
+            "id": "5f2321a7f107db9f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "250424b_spi_slave.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "250424b_spi_slave"
+            }
+          },
+          {
+            "id": "6f38b8add7bcb492",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "260408b-rtl-float2.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "260408b-rtl-float2"
+            }
+          },
+          {
+            "id": "97fdaed5380e4a61",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "260408-rtl-float1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "260408-rtl-float1"
+            }
+          }
+        ],
+        "currentTab": 18
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "181c6d8f3f1cbff9",
+    "type": "split",
+    "children": [
+      {
+        "id": "939bc16c5cb92d24",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "53f651955b63a87b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "파일 탐색기"
+            }
+          },
+          {
+            "id": "6c5f22f9bde8a0a1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "spi",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "검색"
+            }
+          },
+          {
+            "id": "bf31dc3f6370efb7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "06ec2771199821c7",
+    "type": "split",
+    "children": [
+      {
+        "id": "9016457ade29b43e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e0067debdb778f28",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "260210-moa-부동산 관리.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 260210-moa-부동산 관리"
+            }
+          },
+          {
+            "id": "d180d8dccb9c7bea",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "260210-moa-부동산 관리.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 260210-moa-부동산 관리"
+            }
+          },
+          {
+            "id": "1087f256e9cf9fad",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "72357bff2e19f086",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "260210-moa-부동산 관리.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 260210-moa-부동산 관리"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "bases:새 베이스 생성하기": false
+    }
+  },
+  "active": "6f38b8add7bcb492",
+  "lastOpenFiles": [
+    "rax-260423a-send_bytes.md",
+    "250424b_spi_slave.md",
+    "250424_spi_slave.md",
+    "250416a-spi_설계1.md",
+    "250415a-spi_spec-wb burst.md",
+    "250415-spi_spec_single.md",
+    "250409_qspi_ref.md",
+    "260215c-tax-2025년도 예상.md",
+    "260408b-rtl-float2.md",
+    "260408-rtl-float1.md",
+    "260408b-rtl-queue.md",
+    "Pasted image 20260305191007.png",
+    "Pasted image 20260305190955.png",
+    "Pasted image 20260305190904.png",
+    "260215c-tax-cpa에게 IMR, MOA 세금 보고 요청 내용.md",
+    "moa-260210-0828-carlos.md",
+    "260215b-tax-property 2.md",
+    "260216d-tax-자산 or 집.md",
+    "260210-moa-부동산 관리.md",
+    "260215 tax.md",
+    "260216c-tax-1.6M 집구매.md",
+    "260216b-2026년도 세금을 28-35 에서 11로 down 가능.md",
+    "260216a-tax-2026 계획.md",
+    "260215d-tax-property 1 리모델링 서류.md",
+    "260215a-tax-property 1.md",
+    "260215b-tax-2024년도.md",
+    "intv_-asic-reset.md",
+    "_2024-04-09-경제-달러.md",
+    "2021-05-10-컴퓨터 26 외장하드 제거X.assets/image-20210208232002889.png",
+    "2021-03-11-파이썬 04a 기초 - 숫자, 문자열.assets/image-20211012113833155.png"
+  ]
+}
