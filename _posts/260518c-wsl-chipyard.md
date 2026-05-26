@@ -2,24 +2,8 @@
 
 참고: https://chipyard.readthedocs.io/en/latest/Chipyard-Basics/Initial-Repo-Setup.html#prerequisites
 
-## clone
 
-```
-git clone https://github.com/ucb-bar/chipyard.git
-cd chipyard
-```
-
-## submodule (1)
-
-```
-./build-setup.sh
-```
-
-이 단계가 꽤 오래 걸립니다.
-
-
-
-## [Q] build-setup.sh에서 conda가 없다고 나오면?
+## [Q] 준비
 
 참고: https://github.com/conda-forge/miniforge/#download
 
@@ -30,19 +14,24 @@ curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Mi
 bash Miniforge3-$(uname)-$(uname -m).sh
 ```
 
-(1)
-
-ubuntu 재시작후 위 (1) build-setup 재실행
 
 ```bash
-./build-setup.sh
+sudo apt update
+sudo apt install -y libguestfs-tools qemu-utils fuse (1)
 ```
 
 
 
+```bash
+
+which guestmount
+guestmount --version
+
+```
 
 
-(1) 다음 오류가 나서 다시 설치
+
+## (1) fuse 다음 오류가 나서 다시 설치
 
 ``` bash
 FileNotFoundError: [Errno 2] No such file or directory: 'guestmount'
@@ -52,18 +41,6 @@ Log available at: /home/ygkim/dev/chipyard_260518/software/firemarshal/logs/br-b
 ERROR: FAILURE: 1 builds failed
 build-setup.sh: Build script failed with exit code 1 at step 9: Pre-compiling FireMarshal buildroot sources
 ```
-
-
-
-```bash
-sudo apt update
-sudo apt install -y libguestfs-tools qemu-utils fuse
-
-which guestmount
-guestmount --version
-
-```
-
 
 
 WSL/modern Ubuntu에서는 보통 `fuse3`만 사용하면 됩니다.
@@ -115,7 +92,7 @@ git checkout main
 
 
 
-# 1. 기존 fuse/libguestfs 정리
+### 1. 기존 fuse/libguestfs 정리
 
 ```
 sudo apt remove -y fuse fuse3 libfuse2 libfuse3-3 guestmount libguestfs-tools
@@ -124,7 +101,7 @@ sudo apt autoremove -y
 
 ------
 
-# 2. universe repository 활성화
+### 2. universe repository 활성화
 
 ```
 sudo add-apt-repository universe
@@ -133,7 +110,7 @@ sudo apt update
 
 ------
 
-# 3. 필요한 패키지 재설치
+### 3. 필요한 패키지 재설치
 
 WSL Ubuntu 22.04/24.04 기준:
 
@@ -152,7 +129,7 @@ sudo apt install -y \
 - `fuse` 말고 `fuse3`
 - `libfuse2` 같이 필요
 
-# 4. WSL에서 FUSE 활성화 확인
+### 4. WSL에서 FUSE 활성화 확인
 
 ```
 ls -l /dev/fuse
@@ -166,12 +143,30 @@ crw-rw-rw- 1 root root ...
 
 
 
-## 재설치
+### 재설치
 
 ```bash
 ./build-setup.sh -s 1
 ```
 
+
+
+## clone
+
+```
+git clone https://github.com/ucb-bar/chipyard.git
+cd chipyard
+```
+
+## submodule (1)
+
+```
+./build-setup.sh
+```
+
+이 단계가 꽤 오래 걸립니다.
+
+여기서 오류가 나면 위 (1)로 가서 실행
 
 
 # 2. RTL 생성 테스트

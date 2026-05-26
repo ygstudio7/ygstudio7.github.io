@@ -2,6 +2,12 @@ https://eecs281staff.github.io/eecs281setup/guides/windows/vscode/
 
 WSL(Windows Server Logic)은 Windows 10 이상 버전에서 가상 머신이나 듀얼 부팅 설정 없이도 Windows와 함께 Linux 명령줄 도구 및 응용 프로그램을 사용할 수 있도록 해주는 기능입니다. WSL은 일반적으로 가상 머신보다 적은 리소스를 사용하면서도 WSL 내에서 Windows 파일 시스템에 접근할 수 있도록 해줍니다. 하지만 WSL은 기본적으로 그래픽 프로그램을 지원하지 않으며, 하드웨어에 접근하려는 프로그램에 대해서는 제한적인 지원만 제공
 
+powreshell에서
+```bash
+wsl --install
+```
+```
+
 # ubuntu 설치
 
 store > ubuntu 설치 > 실행
